@@ -1,0 +1,39 @@
+package assessment;
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class demoblaze {
+	public static void main(String args[]) {
+		System.out.println("hello");
+		 
+		WebDriver driver=new EdgeDriver();
+		
+		
+		// Launch the browser using Selenium WebDriver. 
+		driver.get("https://demoblaze.com/");
+		
+		//implicit wait
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		
+		//"Login Successful
+		driver.findElement(By.xpath("//a[@id='login2']")).click();
+		
+		driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("arasu");
+		driver.findElement(By.xpath("(//input[@id='loginpassword'])[1]")).sendKeys("arasu");
+		
+		
+		
+		
+		System.out.println("\"Login Successful");
+		
+		
+		
+	}
+
+}

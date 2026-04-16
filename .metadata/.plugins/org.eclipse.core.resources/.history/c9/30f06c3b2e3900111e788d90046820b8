@@ -1,0 +1,131 @@
+package assessment;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;  // ✅ FIX: use List
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class ogcode {
+	public static void main(String args[]) {
+		System.out.println("hello");
+
+		WebDriver driver = new EdgeDriver();
+
+		// Launch the browser
+		driver.get("https://demoblaze.com/");
+
+		// Explicit wait
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+		// Login
+		WebElement login = wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='login2']")));
+		login.click();
+
+		driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("arasu");
+		driver.findElement(By.xpath("(//input[@id='loginpassword'])[1]")).sendKeys("arasu");
+		driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
+
+		// ✅ FIX: Proper wait for login validation
+		WebElement welcome = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
+
+		String Element = welcome.getText();
+		String Element2 = "Welcome arasu";
+
+		if (Element.equals(Element2)) {
+			System.out.println("Login Successful");
+		}
+
+		// Category Navigation
+		WebElement laptop = wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Laptops']")));
+		laptop.click();
+
+		// ✅ FIX: use List (no casting)
+		List<WebElement> list = driver.findElements(By.xpath("//a[@class=\"hrefch\"]"));
+
+		ArrayList<String> list1 = new ArrayList<String>();
+
+		for (WebElement E : list) {
+			list1.add(E.getText());
+		}
+
+		Collections.sort(list1);
+
+		for (String X : list1) {
+			System.out.println("Found Laptop: " + X);
+		}
+
+		// Add Product to Cart
+
+		// ✅ FIX: wait before clicking product
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//a[normalize-space()='MacBook Pro']"))).click();
+
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//a[@class='btn btn-success btn-lg']"))).click();
+
+		// ✅ FIX: ALERT HANDLING (VERY IMPORTANT)
+		wait.until(ExpectedConditions.alertIsPresent());
+		driver.switchTo().alert().accept();
+		System.out.println("Alert handled successfully.");
+
+		System.out.println("Product added to cart");
+
+		// Place Order
+
+		driver.findElement(By.id("cartur")).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Products']")));
+
+		driver.findElement(By.xpath("//button[normalize-space()='Place Order']")).click();
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
+
+		driver.findElement(By.id("name")).sendKeys("John Doe");
+		driver.findElement(By.id("country")).sendKeys("India");
+		driver.findElement(By.id("city")).sendKeys("Bangalore");
+		driver.findElement(By.id("card")).sendKeys("1234567812345678");
+		driver.findElement(By.id("month")).sendKeys("04");
+		driver.findElement(By.id("year")).sendKeys("2026");
+
+		driver.findElement(By.xpath("//button[normalize-space()='Purchase']")).click();
+
+		WebElement confirmation = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(
+						By.xpath("//div[contains(@class,'sweet-alert')]")));
+
+		String purchaseText = confirmation.getText();
+
+		if (purchaseText.contains("Id")) {
+			System.out.println("Order is placed successfully");
+
+			String[] lines = purchaseText.split("\n");
+
+			for (String line : lines) {
+				if (line.contains("Id")) {
+					System.out.println("Order ID: " + line.split(":")[1].trim());
+				}
+				if (line.contains("Amount")) {
+					System.out.println("Amount: " + line.split(":")[1].trim());
+				}
+				if (line.contains("Date")) {
+					System.out.println("Date: " + line.split(":")[1].trim());
+				}
+			}
+
+		} else {
+			System.out.println("Order is NOT placed successfully");
+		}
+
+		// ✅ FIX: close browser
+		driver.quit();
+	}
+}

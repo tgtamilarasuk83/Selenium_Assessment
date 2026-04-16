@@ -1,0 +1,68 @@
+package assessment;
+
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+public class demoblaze {
+	public static void main(String args[]) {
+		System.out.println("hello");
+		 
+		WebDriver driver=new EdgeDriver();
+		
+		
+		// Launch the browser using Selenium WebDriver. 
+		driver.get("https://demoblaze.com/");
+		
+		//implicit wait
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		
+		//"Login Successful
+		driver.findElement(By.xpath("//a[@id='login2']")).click();
+		
+		driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("arasu");
+		driver.findElement(By.xpath("(//input[@id='loginpassword'])[1]")).sendKeys("arasu");
+		driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
+			
+		
+//		//Validation
+//		String Element = driver.findElement(By.xpath("//a[contains(text(), 'Welcome arasu')]")).getText();
+//		String Element2 ="Welcome arasu";
+//		if(Element.equals(Element2)) {
+//			System.out.println("\"Login Successful");
+//		}
+//		
+		
+		
+		
+		//Category Navigation & Product Handling (10 Marks) 
+		//use explicit wait for the element
+		
+		driver.findElement(By.xpath("//a[text() = 'Laptops']")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text() = 'Laptops']"))).click();
+		
+		
+		List< WebElement> list =  driver.findElements(By.xpath("//a[@class=\"hrefch\"]"));
+		
+		for(WebElement X : list) {
+			System.out.println(X.getText());
+		}
+		 
+		
+		
+		
+		driver.quit();
+		
+		
+
+	}
+
+}

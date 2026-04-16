@@ -1,0 +1,47 @@
+package basic_test_NG;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+
+public class NewTest7 {
+	
+	  WebDriver driver = new EdgeDriver();
+  @Test
+  public void f() {
+	  driver.findElement(By.xpath("//a[@id='login2']")).click();
+	  driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("arasu");
+	  driver.findElement(By.xpath("(//input[@id='loginpassword'])[1]")).sendKeys("arasu");
+      driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
+	  
+	  
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  EdgeOptions option = new EdgeOptions();
+	  option.addArguments("--headless");  
+	  option.addArguments("--window-size=1920,1080");
+
+	  driver = new EdgeDriver(option);
+	
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  
+	  driver.get("https://www.demoblaze.com/");
+	
+  }
+
+  @AfterTest
+  public void afterTest() {
+	 
+
+  }
+
+}

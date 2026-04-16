@@ -1,0 +1,146 @@
+package assessment;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class demoblaze {
+
+    public static void main(String args[]) {
+
+        System.out.println("hello");
+
+        WebDriver driver = new EdgeDriver();
+
+        // Open website
+        driver.get("https://demoblaze.com/");
+        driver.manage().window().maximize();
+
+        // Implicit wait
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+        // ================= LOGIN =================
+        driver.findElement(By.xpath("//a[@id='login2']")).click();
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+
+        driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("arasu");
+        driver.findElement(By.xpath("(//input[@id='loginpassword'])[1]")).sendKeys("arasu");
+
+        driver.findElement(By.xpath("//button[normalize-space()='Log in']")).click();
+
+        // Validation
+        WebElement Element = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("//a[contains(text(),'Welcome')]")));
+
+        String Element2 = "Welcome arasu";
+
+        if (Element.getText().equals(Element2)) {
+            System.out.println("Login Successful");
+        }
+
+        // ================= CATEGORY =================
+        WebElement laptop = wait.until(
+                ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Laptops']")));
+        laptop.click();
+
+        // Get product list
+        ArrayList<WebElement> list = new ArrayList<WebElement>(
+                driver.findElements(By.xpath("//a[@class='hrefch']")));
+
+        ArrayList<String> list1 = new ArrayList<String>();
+
+        for (WebElement E : list) {
+            list1.add(E.getText());
+        }
+
+        // Sort products
+        Collections.sort(list1);
+
+        for (String X : list1) {
+            System.out.println("Found Laptop: " + X);
+        }
+
+        // ================= ADD PRODUCT =================
+        driver.findElement(By.xpath("//a[normalize-space()='MacBook Pro']")).click();
+
+        wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//a[text()='Add to cart']"))).click();
+
+        // ================= ALERT HANDLING =================
+        wait.until(ExpectedConditions.alertIsPresent());
+
+        String alertText = driver.switchTo().alert().getText();
+        System.out.println("Alert Message: " + alertText);
+
+        driver.switchTo().alert().accept();
+        System.out.println("Alert handled successfully.");
+
+        // ================= CART =================
+        driver.findElement(By.id("cartur")).click();
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[text()='Products']")));
+
+        // ================= PLACE ORDER =================
+        driver.findElement(By.xpath("//button[normalize-space()='Place Order']")).click();
+
+        WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        wait2.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
+
+        driver.findElement(By.id("name")).sendKeys("John Doe");
+        driver.findElement(By.id("country")).sendKeys("India");
+        driver.findElement(By.id("city")).sendKeys("Bangalore");
+        driver.findElement(By.id("card")).sendKeys("1234567812345678");
+        driver.findElement(By.id("month")).sendKeys("04");
+        driver.findElement(By.id("year")).sendKeys("2026");
+
+        driver.findElement(By.xpath("//button[normalize-space()='Purchase']")).click();
+
+        // ================= CONFIRMATION =================
+        WebElement confirmation = wait2.until(
+                ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("//div[contains(@class,'sweet-alert')]")));
+
+        String purchaseText = confirmation.getText();
+
+        if (purchaseText.contains("Id")) {
+
+            System.out.println("Order is placed successfully");
+
+            String[] lines = purchaseText.split("\n");
+
+            for (String line : lines) {
+
+                if (line.contains("Id")) {
+                    System.out.println("Order ID: " + line.split(":")[1].trim());
+                }
+
+                if (line.contains("Amount")) {
+                    System.out.println("Amount: " + line.split(":")[1].trim());
+                }
+
+                if (line.contains("Date")) {
+                    System.out.println("Date: " + line.split(":")[1].trim());
+                }
+            }
+
+        } else {
+            System.out.println("Order is NOT placed successfully");
+        }
+
+        // Close browser
+        driver.quit();
+    }
+}

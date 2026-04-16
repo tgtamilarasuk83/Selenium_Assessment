@@ -1,0 +1,25 @@
+package basic_test_NG;
+
+import org.testng.annotations.Test;
+
+public class NewTest2 {
+  @Test
+  public void A() {
+	  System.out.println("A");
+  }
+  
+  @Test
+  public void B(){
+	  System.out.println("B");
+  }
+  
+  @Test
+  public void c(){
+	  System.out.println("C");
+  }
+  
+  @Test
+  public void D(){
+	  System.out.println("D");
+  }
+}
