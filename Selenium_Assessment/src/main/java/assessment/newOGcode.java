@@ -85,7 +85,12 @@ public class newOGcode {
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[normalize-space()='MacBook Pro']"))).click();
 
 		 wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-success btn-lg']"))).click();
-
+		 
+		 
+		//alert
+		 wait.until(ExpectedConditions.alertIsPresent());
+		 driver.switchTo().alert().accept();
+		 System.out.println("Alert handled successfully.");
 		 System.out.println("Product added to cart");
 		 
 		 
@@ -124,17 +129,14 @@ public class newOGcode {
 			    System.out.println("Order is NOT placed successfully");
 			}
 
-
 		 
+		
 		// OK button (confirm purchase)
-		 wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text() = 'OK']"))).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text() = 'OK']"))).click();
 		
 
 
-		//alert
-//		 wait.until(ExpectedConditions.alertIsPresent());
-//		 driver.switchTo().alert().accept();
-//		 System.out.println("Alert handled successfully.");
+		
 		 
 	}
 

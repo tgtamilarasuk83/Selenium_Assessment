@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\New Workspace\testNGlearning"/>
 			<item value="D:\New Workspace\Selenium_Assessment\src\main\java\assessment\newOGcode.java"/>
 			<item value="D:\New Workspace\Assessment_Selenium\pom.xml"/>
 			<item value="D:\New Workspace\Selenium_Assessment"/>
@@ -28,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.testNG.TestNGApplicationtesting"/>
 			<item value="com.testNG.TestNG"/>
 			<item value="com.testNG.testNGlearning"/>
 		</list>
@@ -35,6 +37,7 @@
 			<item value="com.testNG"/>
 		</list>
 		<list key="artifactId">
+			<item value="TestNGApplicationtesting"/>
 			<item value="TestNG"/>
 			<item value="testNGlearning"/>
 		</list>

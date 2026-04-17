@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test name="Test" thread-count="5">
+
+    <groups>
+      <run>
+        <include name="group"/>
+        <include name="oops"/>
+      </run>
+    </groups>
+
+    <classes >
+     <class name="testngpractice.groupby"/>
+
+      <class name="com.testNG.TestNGApplicationtesting.AppTest"/>
+    </classes>
+
+  </test>
+</suite>
