@@ -20,4 +20,8 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="testngpractice.SoftAsssertionsTest"/>
+    <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
 </qualifiedTypeNameHistroy>
