@@ -15,7 +15,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class Exceldataprovider1 {
-@DataProvider(name = "excel" ,parallel = true )
+@DataProvider(name = "excel" )
    public  String[][]  getdata() throws IOException {
 	  File excelfile = new File("src/test/resources/excel/data_excel.xlsx");
 	  System.out.println(excelfile.exists());

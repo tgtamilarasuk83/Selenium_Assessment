@@ -1,0 +1,108 @@
+[INFO ] 2026-04-22 11:56:28.964 [main] Logging_demoblaze - Launching browser and navigating to OrangeHRM
+[INFO ] 2026-04-22 11:56:29.250 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 11:56:29.470 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 12:00:19.315 [main] Logging_demoblaze - Launching browser and navigating to OrangeHRM
+[INFO ] 2026-04-22 12:00:19.621 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 12:00:19.862 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 12:02:17.319 [main] Logging_demoblaze - Launching browser and navigating to OrangeHRM
+[INFO ] 2026-04-22 12:02:17.586 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 12:02:17.808 [main] Logging_demoblaze - Attempting login with username: 
+[INFO ] 2026-04-22 12:02:20.644 [main] Logging_demoblaze - Login successful for user: arasu
+[DEBUG] 2026-04-22 12:04:08.347 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:04:08.355 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-22 12:06:28.663 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:06:28.668 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:06:33.858 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:06:34.130 [main] Logging_demoblaze - Attempting login with username: admin
+[INFO ] 2026-04-22 12:06:36.151 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:06:40.113 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:06:40.391 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-22 12:06:42.894 [main] Logging_demoblaze - Login successful for user: arasu
+[INFO ] 2026-04-22 12:06:43.082 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:06:46.909 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:06:47.235 [main] Logging_demoblaze - Attempting login with username: kumar
+[INFO ] 2026-04-22 12:06:48.173 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-22 12:11:12.945 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:11:12.954 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:11:18.093 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:11:18.345 [main] Logging_demoblaze - Attempting login with username: admin
+[INFO ] 2026-04-22 12:11:20.045 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:11:24.351 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:11:24.645 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-22 12:11:28.241 [main] Logging_demoblaze - Login successful for user:
+[INFO ] 2026-04-22 12:11:28.515 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:11:32.613 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:11:32.852 [main] Logging_demoblaze - Attempting login with username: kumar
+[INFO ] 2026-04-22 12:11:34.939 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-22 12:12:54.430 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:12:54.436 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:13:00.724 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:13:00.950 [main] Logging_demoblaze - Attempting login with username: admin
+[INFO ] 2026-04-22 12:13:02.894 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:13:06.421 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:13:06.595 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-22 12:13:09.076 [main] Logging_demoblaze - Login successful for user:
+[INFO ] 2026-04-22 12:13:09.341 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:13:13.376 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:13:13.559 [main] Logging_demoblaze - Attempting login with username: kumar
+[INFO ] 2026-04-22 12:13:15.643 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-22 12:28:07.520 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:28:07.528 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:28:14.208 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:28:14.394 [main] Logging_demoblaze - Attempting login with username: admin
+[ERROR] 2026-04-22 12:28:15.994 [main] Logging_demoblaze - Exception occurred during login for user: admin
+[ERROR] 2026-04-22 12:28:15.997 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: MicrosoftEdge=147.0.3912.72): Wrong password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1403e8804a0bfa102b9288d85e1d7390, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.72, fedcm:accounts: true, goog:processID: 17736, ms:edgeOptions: {debuggerAddress: localhost:56022}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56022/devtoo..., se:cdpVersion: 147.0.3912.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1403e8804a0bfa102b9288d85e1d7390
+[INFO ] 2026-04-22 12:28:16.223 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:28:19.922 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:28:20.204 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-22 12:28:22.610 [main] Logging_demoblaze - Login successful for user
+[INFO ] 2026-04-22 12:28:22.799 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:28:26.614 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:28:26.804 [main] Logging_demoblaze - Attempting login with username: kumar
+[ERROR] 2026-04-22 12:28:29.066 [main] Logging_demoblaze - Exception occurred during login for user: kumar
+[ERROR] 2026-04-22 12:28:29.067 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: MicrosoftEdge=147.0.3912.72): Wrong password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [48a6f3815971052effaf85ebc1d38d03, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.72, fedcm:accounts: true, goog:processID: 34276, ms:edgeOptions: {debuggerAddress: localhost:59586}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59586/devtoo..., se:cdpVersion: 147.0.3912.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48a6f3815971052effaf85ebc1d38d03
+[INFO ] 2026-04-22 12:28:29.227 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-22 12:31:23.696 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:31:23.702 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:31:29.060 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:31:29.253 [main] Logging_demoblaze - Attempting login with username: admin
+[INFO ] 2026-04-22 12:31:29.480 [main] Logging_demoblaze - Attempting login with password: admin123
+[ERROR] 2026-04-22 12:31:30.867 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: MicrosoftEdge=147.0.3912.72): Wrong password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d48365ae434f11edec012442e4b1b311, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.72, fedcm:accounts: true, goog:processID: 39176, ms:edgeOptions: {debuggerAddress: localhost:63405}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63405/devtoo..., se:cdpVersion: 147.0.3912.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d48365ae434f11edec012442e4b1b311
+[INFO ] 2026-04-22 12:31:31.065 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:31:34.803 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:31:35.069 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-22 12:31:35.415 [main] Logging_demoblaze - Attempting login with password: arasu
+[INFO ] 2026-04-22 12:31:37.715 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-22 12:31:41.438 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-22 12:31:41.671 [main] Logging_demoblaze - Attempting login with username: kumar
+[INFO ] 2026-04-22 12:31:41.896 [main] Logging_demoblaze - Attempting login with password: kumar123
+[ERROR] 2026-04-22 12:31:42.328 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: MicrosoftEdge=147.0.3912.72): Please fill out Username and Password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cc533de27f28aec0da5e99f328268f94, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.72, fedcm:accounts: true, goog:processID: 38536, ms:edgeOptions: {debuggerAddress: localhost:64203}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64203/devtoo..., se:cdpVersion: 147.0.3912.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc533de27f28aec0da5e99f328268f94
+[INFO ] 2026-04-22 12:31:42.587 [main] Logging_demoblaze - Browser closed

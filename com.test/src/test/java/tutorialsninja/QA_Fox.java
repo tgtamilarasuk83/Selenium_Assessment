@@ -28,8 +28,7 @@ public class QA_Fox {
     }
 
     @Test(
-        dataProvider = "excel_qafox",
-        dataProviderClass = dataproviderforQAFpx.class
+        dataProvider = "excel_qafox", dataProviderClass = dataproviderforQAFpx.class
     )
     public void f(String name, String password) {
 

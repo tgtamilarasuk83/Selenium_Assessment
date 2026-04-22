@@ -1,57 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T09:04:44 IST" name="Default suite" finished-at="2026-04-22T09:04:45 IST" duration-ms="57">
+  <suite started-at="2026-04-22T12:31:23 IST" name="Default suite" finished-at="2026-04-22T12:31:42 IST" duration-ms="19101">
     <groups>
     </groups>
-    <test started-at="2026-04-22T09:04:44 IST" name="Default test" finished-at="2026-04-22T09:04:45 IST" duration-ms="57">
-      <class name="tutorialsninja.Search">
-        <test-method signature="search(java.lang.String)[pri:0, instance:tutorialsninja.Search@6989da5e]" started-at="2026-04-22T09:04:44 IST" name="search" finished-at="2026-04-22T09:04:44 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'search' is required by @Test on method search but has not been marked @Optional or defined
-in C:\Users\Tamilarasu Krishnan\AppData\Local\Temp\testng-eclipse-1206921524\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'search' is required by @Test on method search but has not been marked @Optional or defined
-in C:\Users\Tamilarasu Krishnan\AppData\Local\Temp\testng-eclipse-1206921524\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2026-04-22T12:31:23 IST" name="Default test" finished-at="2026-04-22T12:31:42 IST" duration-ms="19101">
+      <class name="Logging.Logging_demoblaze">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:24 IST" name="setup" finished-at="2026-04-22T12:31:29 IST" duration-ms="4820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-      </class> <!-- tutorialsninja.Search -->
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:29 IST" name="loginTest" data-provider="excel" finished-at="2026-04-22T12:31:30 IST" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:30 IST" name="tearDown" finished-at="2026-04-22T12:31:31 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:31 IST" name="setup" finished-at="2026-04-22T12:31:34 IST" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:34 IST" name="loginTest" data-provider="excel" finished-at="2026-04-22T12:31:37 IST" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arasu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arasu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:37 IST" name="tearDown" finished-at="2026-04-22T12:31:37 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:37 IST" name="setup" finished-at="2026-04-22T12:31:41 IST" duration-ms="3721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:41 IST" name="loginTest" data-provider="excel" finished-at="2026-04-22T12:31:42 IST" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logging.Logging_demoblaze@6aa3a905]" started-at="2026-04-22T12:31:42 IST" name="tearDown" finished-at="2026-04-22T12:31:42 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Logging.Logging_demoblaze -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

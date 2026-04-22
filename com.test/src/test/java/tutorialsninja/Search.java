@@ -15,7 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+import org.testng.Assert;
 public class Search {
 	
 	WebDriver driver;
@@ -39,17 +39,16 @@ public class Search {
 	@Parameters({"search"})
 	@Test
 	public void search(String search1) {
-		WebElement search = driver.findElement(By.xpath("//input[@name = 'search']"));
-		search.sendKeys(search1);
 		
+
+		WebElement search = driver.findElement(By.xpath("//input[@name='search']"));
+		search.sendKeys(search1);
 		WebElement product = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h4//a")));
 		String searched = product.getText();
-		
-		if(searched.contains(search1)) {
-		    System.out.println( search1 + "keyword is present: " + searched);
-		} else {
-		    System.out.println(search1 + "keyword is NOT present: " + searched);
-		}
+		Assert.assertTrue(
+		    searched.contains(search1),
+		    "Expected keyword: " + search1 + " but found: " + searched
+		);
 
 	}
 
