@@ -1,4 +1,4 @@
-package testngpractice;
+package com.testNG.TestNGApplicationtesting;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

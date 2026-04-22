@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngpractice.SoftAsssertionsTest">
+      <class name="com.testNG.TestNGApplicationtesting.NewTest">
         <methods>
-          <include name="afterTest"/>
+          <include name="invalidTest2"/>
+          <include name="invalidTest"/>
           <include name="loginTest"/>
           <include name="beforeTest"/>
-          <include name="invalidTest2"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testngpractice.SoftAsssertionsTest -->
+      </class> <!-- com.testNG.TestNGApplicationtesting.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

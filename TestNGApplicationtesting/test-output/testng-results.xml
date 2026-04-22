@@ -1,40 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T16:25:04 IST" name="Default suite" finished-at="2026-04-17T16:25:21 IST" duration-ms="16579">
+  <suite started-at="2026-04-20T13:38:50 IST" name="Default suite" finished-at="2026-04-20T13:39:02 IST" duration-ms="11599">
     <groups>
     </groups>
-    <test started-at="2026-04-17T16:25:04 IST" name="Default test" finished-at="2026-04-17T16:25:21 IST" duration-ms="16579">
-      <class name="testngpractice.SoftAsssertionsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:04 IST" name="beforeTest" finished-at="2026-04-17T16:25:07 IST" duration-ms="2987" status="PASS">
+    <test started-at="2026-04-20T13:38:50 IST" name="Default test" finished-at="2026-04-20T13:39:02 IST" duration-ms="11599">
+      <class name="com.testNG.TestNGApplicationtesting.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:50 IST" name="beforeTest" finished-at="2026-04-20T13:38:56 IST" duration-ms="5608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="invalidTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:07 IST" name="invalidTest" finished-at="2026-04-17T16:25:09 IST" duration-ms="2360" status="PASS">
+        <test-method signature="invalidTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:56 IST" name="invalidTest" finished-at="2026-04-20T13:38:56 IST" duration-ms="281" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6fbe0db0849f34da12679831dca1f51, sendKeysToElement {value=[Ljava.lang.CharSequence;@5b07730f, id=f.8A17368EC9E2609D65638C4CAA82D456.d.E61BBBAE9CE0E4DF2469DF8BCD33D0E7.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53364}, goog:processID: 22212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53364/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6fbe0db0849f34da12679831dca1f51)] -> id: loginusername]
+Session ID: c6fbe0db0849f34da12679831dca1f51]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6fbe0db0849f34da12679831dca1f51, sendKeysToElement {value=[Ljava.lang.CharSequence;@5b07730f, id=f.8A17368EC9E2609D65638C4CAA82D456.d.E61BBBAE9CE0E4DF2469DF8BCD33D0E7.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53364}, goog:processID: 22212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53364/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6fbe0db0849f34da12679831dca1f51)] -> id: loginusername]
+Session ID: c6fbe0db0849f34da12679831dca1f51
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.testNG.TestNGApplicationtesting.NewTest.invalidTest(NewTest.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:09 IST" name="afterTest" finished-at="2026-04-17T16:25:10 IST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:56 IST" name="afterTest" finished-at="2026-04-20T13:38:56 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:10 IST" name="beforeTest" finished-at="2026-04-17T16:25:12 IST" duration-ms="2388" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:56 IST" name="beforeTest" finished-at="2026-04-20T13:38:59 IST" duration-ms="2289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="invalidTest2()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:12 IST" name="invalidTest2" finished-at="2026-04-17T16:25:14 IST" duration-ms="2277" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="invalidTest2()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:59 IST" name="invalidTest2" finished-at="2026-04-20T13:38:59 IST" duration-ms="216" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[The following asserts failed:
-expected [Wrong password.] but found [User does not exist.]]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dbe597d97d8e2334ac9daba2c97f782, sendKeysToElement {value=[Ljava.lang.CharSequence;@569bf9eb, id=f.D4947B5C583FB86746C7BB0C1651ED15.d.E828D0DDB064C85661C1D258CAD6DA52.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60885}, goog:processID: 29708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60885/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5dbe597d97d8e2334ac9daba2c97f782)] -> id: loginusername]
+Session ID: 5dbe597d97d8e2334ac9daba2c97f782]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Wrong password.] but found [User does not exist.]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testngpractice.SoftAsssertionsTest.invalidTest2(SoftAsssertionsTest.java:103)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dbe597d97d8e2334ac9daba2c97f782, sendKeysToElement {value=[Ljava.lang.CharSequence;@569bf9eb, id=f.D4947B5C583FB86746C7BB0C1651ED15.d.E828D0DDB064C85661C1D258CAD6DA52.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60885}, goog:processID: 29708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60885/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5dbe597d97d8e2334ac9daba2c97f782)] -> id: loginusername]
+Session ID: 5dbe597d97d8e2334ac9daba2c97f782
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.testNG.TestNGApplicationtesting.NewTest.invalidTest2(NewTest.java:86)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -63,30 +145,51 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidTest2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:14 IST" name="afterTest" finished-at="2026-04-17T16:25:15 IST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:59 IST" name="afterTest" finished-at="2026-04-20T13:38:59 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:15 IST" name="beforeTest" finished-at="2026-04-17T16:25:17 IST" duration-ms="2379" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:38:59 IST" name="beforeTest" finished-at="2026-04-20T13:39:01 IST" duration-ms="2139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:17 IST" name="loginTest" finished-at="2026-04-17T16:25:20 IST" duration-ms="3165" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="loginTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:39:01 IST" name="loginTest" finished-at="2026-04-20T13:39:01 IST" duration-ms="312" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[The following asserts failed:
-expected [Wrong password.] but found [User does not exist.]]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5b47c82b72bd9aaf1441784138def89, sendKeysToElement {value=[Ljava.lang.CharSequence;@3bffddff, id=f.D570678D1F285B5E9CCC9604401ADD6F.d.A918825C574FF33B8493392E4A5DEFF3.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58838}, goog:processID: 27680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58838/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b5b47c82b72bd9aaf1441784138def89)] -> id: loginusername]
+Session ID: b5b47c82b72bd9aaf1441784138def89]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Wrong password.] but found [User does not exist.]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testngpractice.SoftAsssertionsTest.loginTest(SoftAsssertionsTest.java:53)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.56)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5b47c82b72bd9aaf1441784138def89, sendKeysToElement {value=[Ljava.lang.CharSequence;@3bffddff, id=f.D570678D1F285B5E9CCC9604401ADD6F.d.A918825C574FF33B8493392E4A5DEFF3.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58838}, goog:processID: 27680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58838/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b5b47c82b72bd9aaf1441784138def89)] -> id: loginusername]
+Session ID: b5b47c82b72bd9aaf1441784138def89
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.testNG.TestNGApplicationtesting.NewTest.loginTest(NewTest.java:37)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -115,15 +218,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngpractice.SoftAsssertionsTest@765d7657]" started-at="2026-04-17T16:25:20 IST" name="afterTest" finished-at="2026-04-17T16:25:21 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.TestNGApplicationtesting.NewTest@65fb9ffc]" started-at="2026-04-20T13:39:01 IST" name="afterTest" finished-at="2026-04-20T13:39:02 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testngpractice.SoftAsssertionsTest -->
+      </class> <!-- com.testNG.TestNGApplicationtesting.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

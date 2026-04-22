@@ -134,7 +134,7 @@ public class ogcode {
 			System.out.println("Order is NOT placed successfully");
 		}
 
-		// ✅ FIX: close browser
+		
 		driver.quit();
 	}
 }
