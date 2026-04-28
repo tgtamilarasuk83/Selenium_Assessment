@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
 public class DemoListener implements ITestListener {
     private static final Logger log = LogManager.getLogger(DemoListener.class);
 
@@ -31,9 +32,7 @@ public class DemoListener implements ITestListener {
 
             File src = element.getScreenshotAs(OutputType.FILE);
 
-            FileHandler.copy(
-                src,
-                new File("test-output/screenshots/" + result.getName() + ".png")
+            FileHandler.copy( src,new File("test-output/screenshots/" + result.getName() + ".png")
             );
 
             log.info("Screenshot captured");
