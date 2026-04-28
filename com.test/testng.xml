@@ -5,5 +5,6 @@
     <classes>
       <class name="Logging.Logging_demoblaze"/>
     </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

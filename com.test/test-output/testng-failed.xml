@@ -6,8 +6,6 @@
       <class name="Logging.Logging_demoblaze">
         <methods>
           <include name="loginTest" invocation-numbers="0 2"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- Logging.Logging_demoblaze -->
     </classes>
