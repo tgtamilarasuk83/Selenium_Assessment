@@ -19,7 +19,7 @@ import dataproviders.Exceldataprovider1;
 
 public class Logging_demoblaze {
 
-    WebDriver driver;
+    public WebDriver driver;
     public Logger log = LogManager.getLogger(Logging_demoblaze.class);
 
     @BeforeMethod
@@ -48,16 +48,16 @@ public class Logging_demoblaze {
     	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     	    String welcomeText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser"))).getText();
 
-//    	    if (welcomeText.contains("Welcome arasu")) {
-//    	        log.info("Login successful for user");
-//    	    } else {
-//    	        log.error("Login failed for user");
-//    	    }
+    	    if (welcomeText.contains("Welcome arasu")) {
+    	        log.info("Login successful for user");
+    	    } else {
+    	        log.error("Login failed for user");
+    	    }
 
     	    Assert.assertTrue( welcomeText.contains("Welcome arasu"),"Login failed for user: " + username);
 
     	} catch (Exception e) {
-    	   // log.error("Exception occurred during login for user: " + username);
+    	    log.error("Exception occurred during login for user: " + username);
     	    log.error("Error message: " + e.getMessage());
     	}
 

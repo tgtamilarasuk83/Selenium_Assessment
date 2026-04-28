@@ -831,3 +831,26 @@ Command: [7a8d365b4e16a283fe9bb98db1bdd30b, findElement {value=nameofuser, using
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.72, fedcm:accounts: true, goog:processID: 50696, ms:edgeOptions: {debuggerAddress: localhost:53558}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53558/devtoo..., se:cdpVersion: 147.0.3912.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 7a8d365b4e16a283fe9bb98db1bdd30b
 [INFO ] 2026-04-22 14:32:09.985 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-28 10:37:51.794 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 10:37:51.797 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 10:37:55.068 [main] Logging_demoblaze - Browser launched
+[INFO ] 2026-04-28 10:37:55.070 [main] DemoListener - loginTest started
+[INFO ] 2026-04-28 10:37:55.161 [main] Logging_demoblaze - Entering username: admin
+[INFO ] 2026-04-28 10:37:55.339 [main] Logging_demoblaze - Entering password
+[ERROR] 2026-04-28 10:37:56.564 [main] DemoListener - loginTest failed
+[ERROR] 2026-04-28 10:37:56.660 [main] DemoListener - Screenshot failed: test-output\screenshots\loginTest.png (The system cannot find the path specified)
+[INFO ] 2026-04-28 10:37:56.823 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-28 10:37:58.820 [main] Logging_demoblaze - Browser launched
+[INFO ] 2026-04-28 10:37:58.821 [main] DemoListener - loginTest started
+[INFO ] 2026-04-28 10:37:58.875 [main] Logging_demoblaze - Entering username: arasu
+[INFO ] 2026-04-28 10:37:59.058 [main] Logging_demoblaze - Entering password
+[INFO ] 2026-04-28 10:38:01.327 [main] Logging_demoblaze - Login text: Welcome arasu
+[INFO ] 2026-04-28 10:38:01.334 [main] DemoListener - loginTest passed
+[INFO ] 2026-04-28 10:38:01.514 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-28 10:38:03.184 [main] Logging_demoblaze - Browser launched
+[INFO ] 2026-04-28 10:38:03.184 [main] DemoListener - loginTest started
+[INFO ] 2026-04-28 10:38:03.265 [main] Logging_demoblaze - Entering username: kumar
+[INFO ] 2026-04-28 10:38:03.447 [main] Logging_demoblaze - Entering password
+[ERROR] 2026-04-28 10:38:04.632 [main] DemoListener - loginTest failed
+[ERROR] 2026-04-28 10:38:04.693 [main] DemoListener - Screenshot failed: test-output\screenshots\loginTest.png (The system cannot find the path specified)
+[INFO ] 2026-04-28 10:38:04.854 [main] Logging_demoblaze - Browser closed
