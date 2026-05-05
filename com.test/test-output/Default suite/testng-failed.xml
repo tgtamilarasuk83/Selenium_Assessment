@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoblaze.Logging_demoblaze">
+      <class name="dataproviders.Excel_demoblaze">
         <methods>
-          <include name="loginTest" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
+          <include name="loginTest"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- demoblaze.Logging_demoblaze -->
+      </class> <!-- dataproviders.Excel_demoblaze -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

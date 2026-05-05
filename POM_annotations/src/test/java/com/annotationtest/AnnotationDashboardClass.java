@@ -10,6 +10,7 @@ import com.page.LoginPage;
 
 
 public class AnnotationDashboardClass extends BaseTestUsingAnnotation {
+	
 
 	 @Test(
 		        dataProvider = "excel", dataProviderClass = dataproviderclass.class

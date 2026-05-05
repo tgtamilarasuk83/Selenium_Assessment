@@ -1,21 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
 
-<suite name="Suite">
-
-    <!-- Attach Listener -->
-    <listeners>
-        <listener class-name="demoblaze.DemoListener"/>
-    </listeners>
-
-    <test name="Test" thread-count="5">
-
-        <classes>
-            <!-- Your Test Class -->
-            <class name="demoblaze.Logging_demoblaze"/>
-        </classes>
-
-    </test>
+  <test name="Test">
+    <classes>
+      <class name="dataproviders.Excel_demoblaze"/>
+    </classes>
+  </test>
 
 </suite>
-

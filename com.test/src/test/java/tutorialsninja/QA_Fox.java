@@ -20,10 +20,8 @@ public class QA_Fox {
     public void setup() {
 
         driver = new EdgeDriver();
-
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
         driver.get("https://tutorialsninja.com/demo/");
     }
 

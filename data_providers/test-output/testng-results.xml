@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-30T06:49:34 IST" name="Suite" finished-at="2026-04-30T06:49:42 IST" duration-ms="8065">
+    <groups>
+    </groups>
+    <test started-at="2026-04-30T06:49:34 IST" name="Test" finished-at="2026-04-30T06:49:42 IST" duration-ms="8065">
+      <class name="demoblaze_listeners.Logging_demoblaze">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoblaze_listeners.Logging_demoblaze@6a78afa0]" started-at="2026-04-30T06:49:34 IST" name="setup" finished-at="2026-04-30T06:49:38 IST" duration-ms="4490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:demoblaze_listeners.Logging_demoblaze@6a78afa0]" started-at="2026-04-30T06:49:38 IST" name="loginTest" finished-at="2026-04-30T06:49:41 IST" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arasu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arasu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoblaze_listeners.Logging_demoblaze@6a78afa0]" started-at="2026-04-30T06:49:41 IST" name="tearDown" finished-at="2026-04-30T06:49:42 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoblaze_listeners.Logging_demoblaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -893,3 +893,48 @@ Command: [9a3166237bd4340e77e56781644a0918, findElement {using=id, value=nameofu
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.86, fedcm:accounts: true, goog:processID: 24320, ms:edgeOptions: {debuggerAddress: localhost:55902}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55902/devtoo..., se:cdpVersion: 147.0.3912.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 9a3166237bd4340e77e56781644a0918
 [INFO ] 2026-04-28 12:20:47.903 [main] Logging_demoblaze - Browser closed
+[DEBUG] 2026-04-28 20:55:27.875 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 20:55:27.882 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 20:57:14.723 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 20:57:14.730 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 21:01:31.265 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 21:01:31.272 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 21:02:43.357 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 21:02:43.363 [TestNG-test-Test-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 21:04:20.145 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 21:04:20.154 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 21:05:49.861 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 21:05:49.868 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-29 06:27:13.713 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-29 06:27:13.721 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-29 06:27:19.610 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-29 06:27:19.877 [main] Logging_demoblaze - Attempting login with username: admin
+[INFO ] 2026-04-29 06:27:20.174 [main] Logging_demoblaze - Attempting login with password: admin123
+[ERROR] 2026-04-29 06:27:21.612 [main] Logging_demoblaze - Exception occurred during login for user: admin
+[ERROR] 2026-04-29 06:27:21.616 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: MicrosoftEdge=147.0.3912.86): Wrong password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [547293cd80eae1c0913b632949d32b8d, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.86, fedcm:accounts: true, goog:processID: 10040, ms:edgeOptions: {debuggerAddress: localhost:53749}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53749/devtoo..., se:cdpVersion: 147.0.3912.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 547293cd80eae1c0913b632949d32b8d
+[INFO ] 2026-04-29 06:27:21.873 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-29 06:27:26.961 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-29 06:27:27.174 [main] Logging_demoblaze - Attempting login with username: arasu
+[INFO ] 2026-04-29 06:27:27.462 [main] Logging_demoblaze - Attempting login with password: arasu
+[INFO ] 2026-04-29 06:27:29.501 [main] Logging_demoblaze - Login successful for user
+[INFO ] 2026-04-29 06:27:29.692 [main] Logging_demoblaze - Browser closed
+[INFO ] 2026-04-29 06:27:33.472 [main] Logging_demoblaze - Browser launched and URL opened
+[INFO ] 2026-04-29 06:27:33.680 [main] Logging_demoblaze - Attempting login with username: kumar
+[INFO ] 2026-04-29 06:27:33.970 [main] Logging_demoblaze - Attempting login with password: kumar123
+[ERROR] 2026-04-29 06:27:34.780 [main] Logging_demoblaze - Exception occurred during login for user: kumar
+[ERROR] 2026-04-29 06:27:34.780 [main] Logging_demoblaze - Error message: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: MicrosoftEdge=147.0.3912.86): Wrong password.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [921b38edbf9b5ca8ceb84677fabfb676, findElement {value=nameofuser, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.86, fedcm:accounts: true, goog:processID: 9880, ms:edgeOptions: {debuggerAddress: localhost:53440}, msedge: {msedgedriverVersion: 147.0.3912.72 (d4380ba2b9dc..., userDataDir: C:\Users\TAMILA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53440/devtoo..., se:cdpVersion: 147.0.3912.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 921b38edbf9b5ca8ceb84677fabfb676
+[INFO ] 2026-04-29 06:27:34.981 [main] Logging_demoblaze - Browser closed
