@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 public class dataproviderclass {
 	
 	
-@DataProvider(name = "excel" )
+	@DataProvider(name = "excel", parallel = true)
 
    public  String[][]  getdata() throws IOException {
 	
