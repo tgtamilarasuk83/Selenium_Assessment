@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runnerPackage.TestNg_runner">
+      <class name="RunnerClass_demoblaze.TestNg_runner">
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- runnerPackage.TestNg_runner -->
+      </class> <!-- RunnerClass_demoblaze.TestNg_runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
